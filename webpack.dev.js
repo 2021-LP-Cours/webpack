@@ -28,10 +28,12 @@ module.exports = {
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './src/index.html'),
+      filename : "index.html",
       minify: true
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './src/contact.html'),
+      filename : "contact.html",
       minify: true
     })
   ],
@@ -76,6 +78,6 @@ module.exports = {
       },
       compress: true,
       //port du serveur
-      port: 9000,
+      port: 9000
     }
 };
