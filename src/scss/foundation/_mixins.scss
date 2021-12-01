@@ -1,0 +1,32 @@
+
+@mixin title {
+  color: $colorTitle;
+  font-size: pxToRem(21)
+}
+
+
+@mixin small-up{
+  @media screen and (min-width: 360px) {
+    @content;
+  }
+}
+
+@mixin medium-only{
+  @media screen and (min-width: 640px) and (max-width: 779px) {
+    @content;
+  }
+}
+
+@mixin medium-up{
+  @media all and (min-width: 640px) {
+    @content;
+  }
+}
+
+
+@mixin large-up{
+  @media screen and (min-width: 780px) {
+    @content;
+  }
+}
+
