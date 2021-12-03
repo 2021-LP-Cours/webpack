@@ -28,13 +28,11 @@ module.exports = {
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './src/index.html'),
-      filename : "index.html",
-      minify: true
+      filename : "index.html"
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './src/contact.html'),
-      filename : "contact.html",
-      minify: true
+      filename : "contact.html"
     })
   ],
   // Liste des règles à suivre par webpack

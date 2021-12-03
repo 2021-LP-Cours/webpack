@@ -1,12 +1,23 @@
-$primaryColor :#E31D6A;
+$rootFontSize: 16;
 
+// Colors 
+$error : red;
+
+$primaryColor: #E31D6A;
 $lightGrey: #B8B8B8;
+$grey:#808080;
+$darkGrey: #333333;
 
-$rootFontSize : 10;
-$colorTitle : pink;
-$colorError : red;
-$colorText : black;
+$white: rgb(255, 255, 255);
 
-$fontFamilyText :"Roboto", Arial, Sans-serif;
-$fontFamilyTitle: 'Roboto Condensed', Arial;
-$fontFamilyForm : 'Open Sans', Arial;
+// Fonts
+$textFont : "Open Sans", Arial;
+$titleFont : "Roboto Condensed", Arial;
+
+// breakpoints
+$small : 460px;
+$medium : 640px;
+$large : 960px;
+$x-large : 1200px;
+
+
